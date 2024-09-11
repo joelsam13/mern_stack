@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+  }
+  input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  background-color: #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-left: 5px;
+  }
+  button:hover {
+  background-color: #bbb;
+  }
+  ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  }
+  li {
+  display: flex; /* Use Flexbox for alignment */
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space out the children */
+  margin-top: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  }
+  li input[type="text"] {
+    flex-grow: 1; /* Allow input to grow */
+    margin-right: 10px;
+    }
+    li input[type="checkbox"] {
+    margin-right: 15px; /* Add some margin for spacing */
+    }
+    li button {
+    margin-left: 10px;
+    }
